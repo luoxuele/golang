@@ -8,7 +8,7 @@ import (
 func main() {
 
 	go printNum()
-	for i := 1; i < 10; i++ {
+	for i := 0; i < 5; i++ {
 		fmt.Printf("main 中打印字母%c\n", i+65)
 		time.Sleep(time.Second)
 

@@ -8,7 +8,7 @@ import (
 
 func main() {
 	
-	addrs, err := net.LookupHost("www.snowfox.wang")
+	addrs, err := net.LookupHost("luo.snowfox.wang")
 	// addrs, err := net.LookupTXT("www.snowfox.wang")
 	// addrs, err := net.LookupAddr("20.205.243.166")
 
